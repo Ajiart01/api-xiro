@@ -4,7 +4,7 @@ global.key_premium = [];
 global.limit_free = "30";
 global.limit_premium = "99999";
 global.dateLimit = "Oktober, 31 2022",
-global.mongo_Db = "mongodb+srv://zeltoria1909:96xAwEIGoHhOO2lR@cluster0.v5c9etv.mongodb.net/?retryWrites=true&w=majority";
+global.mongo_Db = "mongodb+srv://ajiart01:Ajifu917@cluster0.zebgfie.mongodb.net/?retryWrites=true&w=majority";
 global.recaptcha_key_1 = "6LegHYwmAAAAAOmYT82OldAD5MOpo7S9g5pT0XfQ";
 global.recaptcha_key_2 = "6LegHYwmAAAAAJSGEwz5G7jCD4tbBvrT-8nx3mBV";
 global.my_email = "vynaavalerie@gmail.com";
