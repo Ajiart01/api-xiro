@@ -2,9 +2,9 @@
   "name": "xyro-api",
   "version": "0.0.2",
   "description": "Rest API for bot WhatsApp.",
-  "main": "nodemon index.js",
+  "main": "node index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "Xyroinee ID",
