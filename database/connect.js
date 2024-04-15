@@ -1,4 +1,4 @@
-require('../controllers/settings');
+const { mongo_Db } = require('../controllers/settings');
 const mongoose = require('mongoose');
 
 function connectToMongoDb() {
