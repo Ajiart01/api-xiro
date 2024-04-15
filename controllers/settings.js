@@ -10,4 +10,4 @@ global.recaptcha_key_2 = "6LegHYwmAAAAAJSGEwz5G7jCD4tbBvrT-8nx3mBV";
 global.my_email = "vynaavalerie@gmail.com";
 global.my_email_password = "kontol66k";
 global.activation_token = "-@Pqnap+@(/1jAPPnew/@10";
-global.port = 8080
+global.port = process.env.PORT || 8080 || 5000 || 3000
