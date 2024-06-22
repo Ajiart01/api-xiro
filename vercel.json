@@ -1,9 +1,25 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.js", "use": "@vercel/node" }
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
   ],
   "env": {
-    "NODE_ENV": "production"
+    "XDG_CONFIG_HOME": "/home/runner/$REPL_SLUG/.config",
+    "PATH": "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin",
+    "npm_config_prefix": "/home/runner/$REPL_SLUG/.config/npm/node_global"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
   }
 }
